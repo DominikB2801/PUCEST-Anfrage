@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.header {
+  padding: 1rem;
+  background-color: #b10000;
+  color: white;
+  text-align: left;
+}
+
+.logo {
+  height: 40px;
+}
+
+.app {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #b10000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.progress {
+  height: 8px;
+  background: #ddd;
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #b10000;
+}
